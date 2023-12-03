@@ -20,6 +20,7 @@ Finance_folder = "Report/"
 account_folder = "Account/
 Inventory_folder = 'Inventory/
 
+
 def to_read_files_each(path, filepath, folder_type):
     directory = os.path.join(path,filepath, folder_type)
     if not os.path.exists(directory):
